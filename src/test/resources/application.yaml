@@ -1,0 +1,7 @@
+url: petstore.swagger.io
+
+alfasense:
+  api:
+    baseUrl: https://${url}/v2/
+
+
