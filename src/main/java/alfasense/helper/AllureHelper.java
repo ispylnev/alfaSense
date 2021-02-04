@@ -19,7 +19,7 @@ import java.util.UUID;
 /**
  * This is class provide handler for allure. Request and Response will be handle and  attach to allure reports
  */
-public class AllureUtils extends AllureRestAssured {
+public class AllureHelper extends AllureRestAssured {
 
     /**
      *

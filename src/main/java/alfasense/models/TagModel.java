@@ -1,18 +1,15 @@
 package alfasense.models;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public enum Status {
-
-    AVAILABLE("available"),
-
-    PENDING("pending"),
-
-    SOLD("sold");
-
-    String status;
+public class TagModel {
+    Integer id;
+    String name;
 }
-

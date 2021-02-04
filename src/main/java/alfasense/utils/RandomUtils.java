@@ -1,4 +1,4 @@
-package alfasense.helper;
+package alfasense.utils;
 
 import lombok.experimental.UtilityClass;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -17,6 +17,4 @@ public class RandomUtils {
     public static int getRandomInt() {
         return new Random().nextInt();
     }
-
-
 }
