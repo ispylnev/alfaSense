@@ -1,12 +1,12 @@
 package alfasense.dataprovider;
 
-import alfasense.helper.RandomUtils;
-import alfasense.models.Category;
+import alfasense.utils.RandomUtils;
+import alfasense.models.CategoryModel;
 
 public class CategoryProvider {
 
-    public static Category getCategoryWithAllFilledFields() {
-        return Category.builder()
+    public static CategoryModel getCategoryFilledFields() {
+        return CategoryModel.builder()
                 .id(RandomUtils.getRandomInt())
                 .name(RandomUtils.getRandomEngString(10))
                 .build();

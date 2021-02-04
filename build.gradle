@@ -82,7 +82,7 @@ dependencies {
         }
     }
 
-    task orderTest(type: Test) {
+    task storeTest(type: Test) {
         systemProperty 'host', System.getProperty('host')
         useJUnitPlatform {
             includeTags 'store'

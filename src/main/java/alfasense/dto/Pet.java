@@ -1,7 +1,8 @@
 package alfasense.dto;
 
-import alfasense.models.Category;
-import alfasense.models.Tag;
+import alfasense.models.CategoryModel;
+import alfasense.models.PetStatus;
+import alfasense.models.TagModel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,9 +16,10 @@ import java.util.List;
 @NoArgsConstructor
 public class Pet {
     String id;
-    Category category;
+    CategoryModel category;
     String name;
     List<String> photoUrls;
-    List<Tag> tags;
+    List<TagModel> tags;
+    PetStatus status;
 
 }

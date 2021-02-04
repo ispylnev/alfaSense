@@ -2,6 +2,6 @@ url: petstore.swagger.io
 
 alfasense:
   api:
-    baseUrl: https://${url}/v2/
+    v2: https://${url}/v2/
 
 
